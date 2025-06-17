@@ -2,5 +2,16 @@ plugins {
     id 'com.gradleup.shadow'
 }
 
+repositories {
+    maven {
+        url "https://cursemaven.com"
+    }
+}
+
+dependencies {
+    compileOnly "curse.maven:snow-under-trees-353942:${snow_under_trees_version}"
+    runtimeOnly "curse.maven:snow-under-trees-353942:${snow_under_trees_version}"
+}
+
 apply from: 'https://raw.githubusercontent.com/JensenJ-Modding/Mod-Resources/refs/heads/main/1.21.1/Gradle/neoforge-build.gradle'
 
