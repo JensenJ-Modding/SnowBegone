@@ -1,31 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "architecturymod",
+  "id": "snowbegone",
   "version": "${version}",
-  "name": "Architectury Mod",
-  "description": "Mod Description",
+  "name": "Snow Begone",
+  "description": "A simple mod which makes the light level needed for snow/ice to melt configurable. ",
   "authors": [
     "JensenJ - Developer"
   ],
   "contact": {
-    "sources": "https://github.com/JensenJ-Modding/Architectury-Template",
-    "issues": "https://github.com/JensenJ-Modding/Architectury-Template/issues"
+    "sources": "https://github.com/JensenJ-Modding/SnowBegone",
+    "issues": "https://github.com/JensenJ-Modding/SnowBegone/issues"
   },
   "license": "MIT License",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.architecturymod.fabric.ArchitecturyModFabric"
+      "net.snowbegone.fabric.SnowBegoneFabric"
     ]
   },
   "mixins": [
-    "architecturymod-common.mixins.json",
-    "architecturymod-fabric.mixins.json"
+    "snowbegone-common.mixins.json",
+    "snowbegone-fabric.mixins.json"
   ],
   "depends": {
     "fabric": "*",
-    "minecraft": ">=1.20.1",
-    "architectury": ">=9.2.14",
-    "forgeconfigapiport": ">=8.0.0"
+    "minecraft": ">=1.21.1",
+    "forgeconfigapiport": ">=21.1.3"
   }
 }

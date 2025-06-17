@@ -1,10 +1,14 @@
 {
   "required": true,
-  "package": "net.architecturymod.mixin",
+  "package": "net.snowbegone.mixin",
   "compatibilityLevel": "JAVA_17",
   "minVersion": "0.8",
   "client": [],
   "mixins": [
+    "BiomeMixin",
+    "FrostedIceBlockMixin",
+    "IceBlockMixin",
+    "SnowLayerBlockMixin"
   ],
   "injectors": {
     "defaultRequire": 1

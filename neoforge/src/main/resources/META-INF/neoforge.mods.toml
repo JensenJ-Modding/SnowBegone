@@ -1,32 +1,32 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
-issueTrackerURL = "https://github.com/JensenJ-Modding/Architectury-Template/issues"
+issueTrackerURL = "https://github.com/JensenJ-Modding/SnowBegone/issues"
 license = "MIT License"
 
 [[mods]]
-modId = "architecturymod"
+modId = "snowbegone"
 version = "${version}"
-displayName = "Architectury Mod"
+displayName = "Snow Begone"
 authors = "JensenJ - Developer"
 description = '''
-Mod Description
+A simple mod which makes the light level needed for snow/ice to melt configurable.
 '''
 
-[[dependencies.architecturymod]]
+[[dependencies.snowbegone]]
 modId = "neoforge"
 type = "required"
 versionRange = "[21.1,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.architecturymod]]
+[[dependencies.snowbegone]]
 modId = "minecraft"
 type = "required"
 versionRange = "[1.21.1,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.architecturymod]]
+[[dependencies.snowbegone]]
 modId = "architectury"
 type = "required"
 versionRange = "[13.0.8,)"
@@ -34,7 +34,7 @@ ordering = "AFTER"
 side = "BOTH"
 
 [[mixins]]
-config = "architecturymod-neoforge.mixins.json"
+config = "snowbegone-neoforge.mixins.json"
 
 [[mixins]]
-config = "architecturymod-common.mixins.json"
+config = "snowbegone-common.mixins.json"
